@@ -1,0 +1,43 @@
+<html>
+<head>
+  <title>Slideshow JS</title>
+
+  <link rel="stylesheet" type="text/css" href="slideshow.css" media="screen" />
+  <script type="text/javascript" src="jquery-1.10.1.min.js"></script>
+  <script type="text/javascript" src="slideshow.js"></script>
+</head>
+
+<body>
+
+<h1>Oh Look It's a Slideshow</h1>
+
+<ul class="slideshow">
+  <li><img src="arch.jpg" /></li>
+  <li><img src="farm.jpg" /></li>
+  <li><img src="flower.jpg" /></li>
+  <li><img src="sunset.jpg" /></li>
+</ul>
+
+
+<a class="slideshow-prev">Previous</a> ||
+<a class="slideshow-next">Next</a>
+
+<script type="text/javascript">
+  // Sample usage:
+
+  // Start slideshow with automatic advance, delay of 2 seconds
+  // new Slideshow('ul.slideshow', {delay: 2000});
+
+  // Start slideshow with all defaults
+  // new Slideshow('ul.slideshow');
+
+  // Start slideshow with manual advance
+  // new Slideshow('ul.slideshow', {
+  //   advance: 'manual',
+  //   previous: '.slideshow-prev',
+  //   next: '.slideshow-next'
+  // });
+</script>
+
+</body>
+</html>

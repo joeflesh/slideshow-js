@@ -1,0 +1,27 @@
+/* Slideshow.css
+********************************************************/
+
+body {
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+
+  font-family: sans-serif;
+}
+
+
+ul.slideshow {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  width: 400px;
+}
+
+ul.slideshow, ul.slideshow li, ul.slideshow img {
+  width: 400px;
+  height: 400px;
+}
+ul.slideshow li {
+  position: absolute;
+}
